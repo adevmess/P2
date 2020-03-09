@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+/* font-family: "Roboto", sans-serif;
+font-family: "Open Sans", sans-serif;  */
+/* couleur de fond bleu : 1600A2  */
+/* 
+
+
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif; 
+  font-family: "Open Sans", sans-serif;
+} 
+header h1 {
+  color:green;
+}
+
