@@ -1,21 +1,62 @@
 @charset "UTF-8";
 
 /* font-family: "Roboto", sans-serif;
-font-family: "Open Sans", sans-serif;  */
-/* couleur de fond bleu : 1600A2  */
-/* 
+   font-family: "Open Sans", sans-serif;  
+*/
 
+/* color  
 
+background color :#1792ca 
+border :#037eb8
+ */
 
-body,
-html {
+html,
+body {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif; 
-  font-family: "Open Sans", sans-serif;
-} 
-header h1 {
-  color:green;
 }
 
+body {
+  font-family: "Open Sans";
+}
+
+/* header */
+
+header img {
+  width: 160px;
+  height: 160px;
+  border: 3px solid #037eb8;
+  border-radius: 50%;
+}
+
+header .col-md-4 {
+  background-color: #1792ca;
+  text-align: center;
+  padding-top: 2.5rem;
+  padding-bottom: 1.2rem;
+}
+
+header .col-md-8 h1 span:first-child {
+  font-family: "Open sans";
+  color: #1792ca;
+  font-size: 2.7rem;
+}
+
+header .col-md-8 h1 span:last-child {
+  font-family: "Open sans light";
+  letter-spacing: -0.22rem;
+  font-size: 2.7rem;
+}
+
+header .col-md-8 h2 {
+  font-family: "roboto";
+  font-size: 1.3rem;
+}
+header .col-md-8 h2::before {
+  content: "";
+  width: 10%;
+  position: absolute;
+  bottom: 0.3rem;
+  height: 1px;
+  border-bottom: 1px solid #1792ca;
+}
