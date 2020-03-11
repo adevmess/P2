@@ -63,19 +63,36 @@ header .col-md-8 h2::before {
 
 /* aside  */
 
+aside [class*="col"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
 aside {
   background-color: #1792ca;
 }
 
 aside h2 {
+  font-weight: 600;
+  font-family: roboto;
   background-color: #0b2c3b;
   color: #1792ca;
+  text-align: center;
+  font-size: 1.38rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.1rem;
 }
 
-.HobbiesRecommandations .col-md-4 {
-  color: #037eb8;
-  background-color: rgb(201, 31, 31);
+.ContactContent {
+  align-items: center;
+  font-size: 0.8rem;
+  font-family: "Open Sans";
+  font-weight: 400;
+  /* padding-left: 2rem; */
+  /* line-height: 0.2rem; */
 }
-.HobbiesRecommandations h2 {
-  background-color: #0b2c3b;
+
+.ContactContent p:nth-child(2n + 1) {
+  font-weight: 300;
+  margin-top: 2rem;
 }
