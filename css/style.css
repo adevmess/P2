@@ -97,3 +97,14 @@ aside h2 {
   margin-top: rem;
   margin-bottom: 0;
 }
+
+/* end contact  */
+
+/* About me  */
+.AboutMeContent p {
+  font-size: 0.8rem;
+  margin: 1rem 0;
+  text-align: justify;
+}
+
+/* End About me  */
