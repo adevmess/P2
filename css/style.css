@@ -212,95 +212,15 @@ h2 i {
   font-size: 0.9rem;
   font-weight: 500;
 }
+/* point  */
 
-.Formation1 li::before {
-  content: "";
-  position: absolute;
-  left: 3.03rem;
-  bottom: 4.75rem;
-  border: 3px solid #1a9edb;
-  border-radius: 50%;
-  width: 15px;
-  height: 15px;
-  z-index: -1;
+/* .fas,
+.fa {
+  color: #1a9edb;
 }
-.Formation1 li span::before {
-  content: "";
-  position: absolute;
-  left: 3.289rem;
-  bottom: 5rem;
-  border: 3px solid #1a9edb;
-  border-radius: 50%;
-  width: 3px;
-  height: 3px;
-  z-index: 1;
-}
-.Formation2 li span::before {
-  content: "";
-  position: absolute;
-  left: 3.1rem;
-  bottom: 6.2rem;
-  border: 6px solid #1a9edb;
-  border-radius: 50%;
-  width: 3px;
-  height: 3px;
-  z-index: 1;
-}
-.Formation3 li span::before {
-  content: "";
-  position: absolute;
-  left: 3.1rem;
-  bottom: 6.125rem;
-  border: 6px solid #1a9edb;
-  border-radius: 50%;
-  width: 6px;
-  height: 6px;
-  z-index: 1;
-}
-.Formation1 li,
-.Formation2 li,
-.Formation3 li {
-  margin-left: 1.5rem;
-}
-/* point epxPro  */
-.ExpPro1 li,
-.ExpPro2 li {
-  margin-left: 1.5rem;
-}
-
-.ExpPro1 li::before {
-  content: "";
-  position: absolute;
-  left: 3.009rem;
-  bottom: 7.35rem;
-  border: 3px solid #1a9edb;
-  border-radius: 50%;
-  width: 15px;
-  height: 15px;
-  z-index: -1;
-}
-.ExpPro1 li span::before {
-  content: "";
-  position: absolute;
-  left: 3.289rem;
-  bottom: 7.67999rem;
-  border: 3px solid #1a9edb;
-  border-radius: 50%;
-  width: 3px;
-  height: 3px;
-  z-index: 1;
-}
-.ExpPro2 li span::before {
-  content: "";
-  position: absolute;
-  left: 3.1rem;
-  bottom: 6.2rem;
-  border: 6px solid #1a9edb;
-  border-radius: 50%;
-  width: 6px;
-  height: 6px;
-  z-index: 1;
-}
+.fas {
+  font-size: rem;
+} */
 
 /* recomandations */
 

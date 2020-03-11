@@ -1,5 +1,6 @@
 icons loisirs:
 
+double point <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
 
 PC -> 		<i class="fas fa-laptop-code"></i>
 
