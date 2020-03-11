@@ -6,7 +6,7 @@
 
 /* color  
 
-background color :#1792ca 
+background color :#1a9edb 
 border :#037eb8
  */
 
@@ -30,7 +30,7 @@ header img {
 }
 
 header .col-md-4 {
-  background-color: #1792ca;
+  background-color: #1a9edb;
   text-align: center;
   padding-top: 2.5rem;
   padding-bottom: 1.2rem;
@@ -38,7 +38,7 @@ header .col-md-4 {
 
 header .col-md-8 h1 span:first-child {
   font-family: "Open sans";
-  color: #1792ca;
+  color: #1a9edb;
   font-size: 2.7rem;
 }
 
@@ -58,7 +58,7 @@ header .col-md-8 h2::before {
   position: absolute;
   bottom: 0.3rem;
   height: 1px;
-  border-bottom: 1px solid #1792ca;
+  border-bottom: 1px solid #1a9edb;
 }
 
 /* aside  */
@@ -69,14 +69,14 @@ aside [class*="col"] {
 }
 
 aside {
-  background-color: #1792ca;
+  background-color: #1a9edb;
 }
 
 aside h2 {
   font-weight: 600;
   font-family: roboto;
   background-color: #0b2c3b;
-  color: #1792ca;
+  color: #1a9edb;
   text-align: center;
   font-size: 1.38rem;
   line-height: 2.5rem;
@@ -88,11 +88,12 @@ aside h2 {
   font-size: 0.8rem;
   font-family: "Open Sans";
   font-weight: 400;
+  margin: 1rem 0;
   /* padding-left: 2rem; */
-  /* line-height: 0.2rem; */
 }
 
 .ContactContent p:nth-child(2n + 1) {
   font-weight: 300;
-  margin-top: 2rem;
+  margin-top: rem;
+  margin-bottom: 0;
 }
