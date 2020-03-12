@@ -5,38 +5,45 @@
     margin-left: 4.2rem;
   }
 
-.row .Formation h4 {
-  margin-left: 4.2rem;
-}
- .row .Formation p {
+  .row .Formation h4 {
+    margin-left: 4.2rem;
+  }
+  .row .Formation p {
     margin-left: 4.2rem;
   }
 
   /* **********ExpPro******** */
 
-.row .ExperiencePro h3 {
-    margin-left: 4.2rem; 
+  .row .ExperiencePro h3 {
+    margin-left: 4.2rem;
   }
 
-.row .ExperiencePro h4 {
-  margin-left: 4.2rem;
-}
-
- .row .ExperiencePro p {
-    margin-left: 4.2rem; 
+  .row .ExperiencePro h4 {
+    margin-left: 4.2rem;
   }
 
-  .row .ExperiencePro{
+  .row .ExperiencePro p {
+    margin-left: 4.2rem;
+  }
+
+  .row .ExperiencePro {
     margin-bottom: 6.5rem;
   }
   /* **********recomandation******** */
-.recomandation{
-  font-size:0.8rem;
+  .recomandation {
+    font-size: 0.8rem;
+  }
+  .recomdtTitle {
+    margin-top: 12rem;
+  }
 }
- .recomdtTitle {
-  margin-top: 12rem;
+
+@media (max-width: 767px) {
+  /* **********header******** */
+  header h2 {
+  }
+  /* **********aside******** */
+  .AboutMeContent {
+    margin-top: 5rem;
+  }
 }
-
-
-  /* **********Hobbies******** */
-
