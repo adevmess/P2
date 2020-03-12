@@ -1,14 +1,17 @@
 @charset "UTF-8";
+/* *************Fonts************ */
 
 /* font-family: "Roboto", sans-serif;
    font-family: "Open Sans", sans-serif;  
 */
 
-/* color  
+/**************Color************/
 
-background color :#1a9edb 
-border :#037eb8
+/*  background color :#1a9edb 
+    border :#037eb8
  */
+
+/* **************General***********/
 
 html,
 body {
@@ -20,7 +23,7 @@ body {
   font-family: "Open Sans";
 }
 
-/* header */
+/*************** Header********** */
 
 header img {
   width: 190px;
@@ -36,32 +39,32 @@ header .col-md-4 {
   padding-bottom: 1.2rem;
 }
 
-header .col-md-8 h1 span:first-child {
+header span:first-child {
   font-family: "Open sans";
   color: #1a9edb;
   font-size: 2.7rem;
 }
 
-header .col-md-8 h1 span:last-child {
+header span:last-child {
   font-family: "Open sans light";
   letter-spacing: -0.22rem;
   font-size: 2.7rem;
 }
 
-header .col-md-8 h2 {
+header h2 {
   font-family: "roboto";
   font-size: 1.3rem;
 }
-header .col-md-8 h2::before {
+
+header h2::before {
   content: "";
   width: 10%;
   position: absolute;
   bottom: 0.3rem;
-  /* height: 1px; */
-  border-bottom: 1px solid #1a9edb;
+  border-bottom: 2px solid #1a9edb;
 }
 
-/* aside  */
+/*********** aside ************ */
 
 aside [class*="col"] {
   padding-right: 0;
@@ -73,10 +76,10 @@ aside {
 }
 
 aside h2 {
-  font-weight: 600;
-  font-family: roboto;
+  font-family: "roboto";
   background-color: #0b2c3b;
   color: #1a9edb;
+  font-weight: 600;
   text-align: center;
   font-size: 1.38rem;
   line-height: 2.5rem;
@@ -86,30 +89,30 @@ aside h2 {
 .ContactContent {
   align-items: center;
   font-size: 0.9rem;
-  font-family: "Open Sans";
   font-weight: 400;
   margin: 1rem 0;
-  /* padding-left: 2rem; */
 }
 
 .ContactContent p:nth-child(2n + 1) {
   font-weight: 300;
-  margin-top: rem;
   margin-bottom: 0;
 }
 
-/* end contact  */
+/*********** About me ************ */
 
-/* About me  */
 .AboutMeContent p {
   font-size: 0.9rem;
   margin: 1rem 0;
   text-align: justify;
 }
 
-/* End About me  */
+.AboutMeContent {
+  margin-bottom: 10rem;
+}
 
-.formationTitle .col-md-12 h2 {
+/*********** Formation ************ */
+
+.formationTitle h2 {
   font-family: "roboto";
   font-size: 1.3rem;
   font-weight: 700;
@@ -118,15 +121,17 @@ aside h2 {
   padding-left: 2rem;
 }
 
-.formationTitle .col-md-12 h2::before {
+.formationTitle h2::before {
   content: "";
   width: 85%;
   position: absolute;
   bottom: -0.5rem;
-  /* height: rem; */
-  border-bottom: 1px solid #1a9edb;
+  border-bottom: 2px solid #1a9edb;
 }
-.ExpProTitle .col-lg-12 h2 {
+
+/*********** Experience Pro ************ */
+
+.ExpProTitle h2 {
   font-family: "roboto";
   font-size: 1.3rem;
   font-weight: 700;
@@ -135,16 +140,21 @@ aside h2 {
   margin-top: 1.1rem;
 }
 
-.ExpProTitle .col-lg-12 h2::before {
+.ExpProTitle h2::before {
   content: "";
   width: 85%;
   position: absolute;
   bottom: -0.5rem;
-
-  border-bottom: 1px solid #1a9edb;
+  border-bottom: 2px solid #1a9edb;
 }
 
-.recomdtTitle .col-sm-12 h2 {
+/*********** Recomandation ************ */
+
+.recomdtTitle {
+  margin-top: -6rem;
+}
+
+.recomdtTitle h2 {
   font-family: "roboto";
   font-size: 1.3rem;
   font-weight: 700;
@@ -153,19 +163,60 @@ aside h2 {
   padding-left: 2rem;
 }
 
-.recomdtTitle .col-sm-12 h2::before {
+.recomdtTitle h2::before {
   content: "";
   width: 85%;
   position: absolute;
   bottom: -0.5rem;
-  /* height: rem; */
-  border-bottom: 1px solid #1a9edb;
+  border-bottom: 2px solid #1a9edb;
 }
 
+.recomandation {
+  margin-left: 2rem;
+}
+
+.recomandation strong {
+  font-family: "Open Sans";
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgb(70, 69, 69);
+}
+
+.recomandation p:nth-child(2) {
+  font-weight: 600;
+  color: rgb(70, 69, 69);
+}
+.recomandation p:nth-child(3) {
+  font-weight: 600;
+  color: rgb(70, 69, 69);
+  line-height: 0;
+}
+
+/*********** Icon ************ */
 h2 i {
   color: #1a9edb;
   font-size: 1.8rem;
   margin-right: 1.7rem;
+}
+/*********** Content Formation/ExpPro ************ */
+
+.DoubleCercle {
+  color: #1a9edb;
+  margin-right: 1rem;
+}
+
+.Cercle {
+  color: #1a9edb;
+  font-size: 0.6rem;
+  margin-right: 1rem;
+}
+
+.Formation li:nth-child(2n) {
+  margin-left: 1.9rem;
+}
+
+.ExperiencePro li:nth-child(2n) {
+  margin-left: 1.9rem;
 }
 
 .Formation li,
@@ -212,45 +263,8 @@ h2 i {
   font-size: 0.9rem;
   font-weight: 500;
 }
-/* point  */
 
-/* .fas,
-.fa {
-  color: #1a9edb;
-}
-.fas {
-  font-size: rem;
-} */
-
-/* recomandations */
-
-.recomandation {
-  margin-left: 2rem;
-}
-
-.recomandation strong {
-  font-family: "Open Sans";
-  font-size: 1rem;
-  font-weight: 600;
-  color: rgb(70, 69, 69);
-}
-
-.recomandation p:nth-child(2) {
-  font-weight: 600;
-  color: rgb(70, 69, 69);
-}
-.recomandation p:nth-child(3) {
-  font-weight: 600;
-  color: rgb(70, 69, 69);
-  line-height: 0;
-}
-
-/* hobbies */
-/* 
-.HobbiesRecommandations [class*="col"] {
-  padding-right: 0;
-  padding-left: 0;
-} */
+/*********** Hobbies ************ */
 
 .Hobbies {
   background-color: #1a9edb;
@@ -259,17 +273,17 @@ h2 i {
 }
 .Hobbies i {
   border: 1px solid #000;
-
   border-radius: 50%;
   padding: 1rem;
-  margin-top: 5rem;
+  margin-top: 4rem;
+  font-size: 2rem;
 }
 
 .HobbiesTitle h2 {
-  font-weight: 600;
   font-family: roboto;
   background-color: #0b2c3b;
   color: #1a9edb;
+  font-weight: 600;
   text-align: center;
   font-size: 1.38rem;
   line-height: 2.5rem;
