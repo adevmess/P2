@@ -1,0 +1,42 @@
+@media (max-width: 991px) {
+  /* **********Formation******** */
+
+  .row .Formation h3 {
+    margin-left: 4.2rem;
+  }
+
+.row .Formation h4 {
+  margin-left: 4.2rem;
+}
+ .row .Formation p {
+    margin-left: 4.2rem;
+  }
+
+  /* **********ExpPro******** */
+
+.row .ExperiencePro h3 {
+    margin-left: 4.2rem; 
+  }
+
+.row .ExperiencePro h4 {
+  margin-left: 4.2rem;
+}
+
+ .row .ExperiencePro p {
+    margin-left: 4.2rem; 
+  }
+
+  .row .ExperiencePro{
+    margin-bottom: 6.5rem;
+  }
+  /* **********recomandation******** */
+.recomandation{
+  font-size:0.8rem;
+}
+ .recomdtTitle {
+  margin-top: 12rem;
+}
+
+
+  /* **********Hobbies******** */
+
