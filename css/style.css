@@ -172,7 +172,7 @@ aside h2 {
 }
 
 .recomandation {
-  margin-left: 2rem;
+  
 }
 
 .recomandation strong {
@@ -202,21 +202,24 @@ h2 i {
 
 .DoubleCercle {
   color: #1a9edb;
-  margin-right: 1rem;
+  margin-right: 0.9rem;
+  margin-left: -0.55rem;
+  font-size:0.7rem;
 }
 
 .Cercle {
   color: #1a9edb;
-  font-size: 0.6rem;
-  margin-right: 1rem;
+  font-size: 0.5rem;
+  margin-left:-0.45rem;
+  margin-right: 0.8rem;
 }
 
 .Formation li:nth-child(2n) {
-  margin-left: 1.9rem;
+  margin-left: 1.1rem;
 }
 
 .ExperiencePro li:nth-child(2n) {
-  margin-left: 1.9rem;
+  margin-left: 1.1rem;
 }
 
 .Formation li,
@@ -269,13 +272,14 @@ h2 i {
 .Hobbies {
   background-color: #1a9edb;
   max-width: 100%;
-  margin: 1rem 0;
+  /* margin: rem 0; */
 }
 .Hobbies i {
   border: 1px solid #000;
   border-radius: 50%;
   padding: 1rem;
-  margin-top: 4rem;
+  /* margin-top: 4rem; */
+  
   font-size: 2rem;
 }
 
