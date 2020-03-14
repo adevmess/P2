@@ -12,6 +12,11 @@
     margin-left: 4.2rem;
   }
 
+.Formation li,
+.ExperiencePro li {
+  padding-left: 0.8rem;
+}
+
   /* **********ExpPro******** */
 
   .row .ExperiencePro h3 {
@@ -36,6 +41,7 @@
   .recomdtTitle {
     margin-top: 12rem;
   }
+
 }
 
 @media (max-width: 767px) {
