@@ -41,7 +41,12 @@
   .recomdtTitle {
     margin-top: 12rem;
   }
+  /* **********Hobbies ******** */
 
+.Hobbies .col-sm-4 i {
+  font-size: 1.5rem;
+  padding: 0.7rem;
+}
 }
 
 @media (max-width: 767px) {
