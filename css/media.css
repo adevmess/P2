@@ -1,5 +1,7 @@
+ /* ********** Medium devices ******** */
+
 @media (max-width: 991px) {
-  /* **********Formation******** */
+  /* ********** Formation ******** */
 
   .row .Formation h3 {
     margin-left: 4.2rem;
@@ -17,7 +19,7 @@
   padding-left: 0.8rem;
 }
 
-  /* **********ExpPro******** */
+  /* ********** ExpPro ******** */
 
   .row .ExperiencePro h3 {
     margin-left: 4.2rem;
@@ -34,27 +36,43 @@
   .row .ExperiencePro {
     margin-bottom: 6.5rem;
   }
-  /* **********recomandation******** */
+  /* ********** recomandation ******** */
   .recomandation {
     font-size: 0.8rem;
   }
   .recomdtTitle {
     margin-top: 12rem;
   }
-  /* **********Hobbies ******** */
+  /* ********** Hobbies ******** */
 
-.Hobbies .col-sm-4 i {
+  .Hobbies .col-sm-4 i {
   font-size: 1.5rem;
   padding: 0.7rem;
 }
 }
 
-@media (max-width: 767px) {
+  /* ********** Small devices ******** */
+
+  @media (max-width: 767px) {
   /* **********header******** */
-  header h2 {
+  header h1, header h2 {
+  text-align: center;
   }
+
   /* **********aside******** */
   .AboutMeContent {
     margin-top: 5rem;
   }
+
+   /* ********** Hobbies ******** */ 
+   .Hobbies .col-sm-4 i {
+    padding: 0.7rem;
 }
+
+  .Hobbies .col-sm-4  {
+  padding-left:5rem;
+}
+
+}
+
+  /* **********Extra Small devices ******** */
