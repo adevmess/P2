@@ -1,5 +1,7 @@
+@charset "UTF-8";
 
-/* *************Fonts************ */
+
+/**************Fonts*************/
 
 /* font-family: "Roboto", sans-serif;
    font-family: "Open Sans", sans-serif;  
@@ -14,7 +16,7 @@
  */
 
 /* **************General***********/
-@charset "UTF-8";
+
 
 html,
 body {
