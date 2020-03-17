@@ -1,6 +1,14 @@
+/* ********** large devices ******** */ 
+ @media (min-width: 991px){
+  .Hobbies .col-4 i {
+    font-size: 1.8rem;
+}
+ }
+ 
  /* ********** Medium devices ******** */
 
 @media (max-width: 991px) {
+
   /* ********** Formation ******** */
 
   .row .Formation h3 {
@@ -10,14 +18,15 @@
   .row .Formation h4 {
     margin-left: 4.2rem;
   }
+  
   .row .Formation p {
     margin-left: 4.2rem;
   }
 
-.Formation li,
-.ExperiencePro li {
-  padding-left: 0.8rem;
-}
+  .Formation li,
+  .ExperiencePro li {
+    padding-left: 0.8rem;
+  }
 
   /* ********** ExpPro ******** */
 
@@ -36,43 +45,94 @@
   .row .ExperiencePro {
     margin-bottom: 6.5rem;
   }
+
   /* ********** recomandation ******** */
+
   .recomandation {
     font-size: 0.8rem;
   }
+
   .recomdtTitle {
     margin-top: 12rem;
   }
+
   /* ********** Hobbies ******** */
 
-  .Hobbies .col-sm-4 i {
-  font-size: 1.5rem;
-  padding: 0.7rem;
+  .Hobbies .col-4 i {
+    font-size: 1.2rem;
+    padding: 0.5rem;
 }
 }
 
-  /* ********** Small devices ******** */
+  /* ************* Small devices ******** */
 
   @media (max-width: 767px) {
+
   /* **********header******** */
+
   header h1, header h2 {
-  text-align: center;
+    text-align: center;
   }
 
   /* **********aside******** */
+
   .AboutMeContent {
     margin-top: 5rem;
   }
 
-   /* ********** Hobbies ******** */ 
-   .Hobbies .col-sm-4 i {
-    padding: 0.7rem;
-}
+  /* **********Formation******** */
 
-  .Hobbies .col-sm-4  {
-  padding-left:5rem;
-}
+  .formationTitle .col-md-12 h2::before {
+    width: 80%;
+  }
 
-}
+/*********** Experience Pro ************ */
 
-  /* **********Extra Small devices ******** */
+  .ExpProTitle .col-lg-12 h2::before {
+    width: 80%;
+  }
+
+/*********** Recomandation ************ */
+
+  .recomdtTitle .col-sm-12 h2::before { 
+    width: 80%;
+  }
+  }
+
+
+    /* **********Extra Small devices ******** */
+
+  @media (max-width: 575px){
+
+    /*********** Formation ************ */ 
+
+  .formationTitle .col-md-12 h2{ 
+    font-size: 1.1rem;
+  }
+
+  .formationTitle .col-md-12 i{
+    font-size:1.5rem;
+    margin-right: 1rem;  
+  }
+/*********** Experience Pro ************ */
+
+  .ExpProTitle .col-lg-12 h2{ 
+    font-size: 1.1rem;
+  }
+
+  .ExpProTitle .col-lg-12 i{
+    font-size:1.5rem;
+    margin-right: 1rem;
+  } 
+
+/*********** Recomandation ************ */
+
+  .recomdtTitle .col-sm-12 h2{ 
+    font-size: 1.1rem;
+  }
+
+  .recomdtTitle .col-sm-12 i{
+    font-size:1.5rem;
+    margin-right: 1rem;
+  } 
+}

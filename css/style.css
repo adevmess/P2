@@ -1,4 +1,4 @@
-@charset "UTF-8";
+
 /* *************Fonts************ */
 
 /* font-family: "Roboto", sans-serif;
@@ -12,10 +12,10 @@
  */
 
 /* **************General***********/
+@charset "UTF-8";
 
 html,
 body {
-  
   padding: 0;
   margin: 0;
 }
@@ -122,12 +122,11 @@ aside h2 {
   font-weight: 700;
   letter-spacing: 0.1rem;
   margin-top: 1.1rem;
-  /* padding-left: 2rem; */
 }
 
 .formationTitle h2::before {
   content: "";
-  width: 85%;
+  width: 90%;
   position: absolute;
   bottom: -0.5rem;
   border-bottom: 2px solid #1a9edb;
@@ -140,13 +139,12 @@ aside h2 {
   font-size: 1.3rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
-  /* padding-left: 2rem; */
   margin-top: 1.1rem;
 }
 
 .ExpProTitle h2::before {
   content: "";
-  width: 85%;
+  width: 90%;
   position: absolute;
   bottom: -0.5rem;
   border-bottom: 2px solid #1a9edb;
@@ -164,19 +162,14 @@ aside h2 {
   font-weight: 700;
   letter-spacing: 0.1rem;
   margin-top: 1.1rem;
-  /* padding-left: 2rem; */
 }
 
 .recomdtTitle h2::before {
   content: "";
-  width: 85%;
+  width: 90%;
   position: absolute;
   bottom: -0.5rem;
   border-bottom: 2px solid #1a9edb;
-}
-
-.recomandation {
-  
 }
 
 .recomandation strong {
@@ -190,18 +183,21 @@ aside h2 {
   font-weight: 600;
   color: rgb(70, 69, 69);
 }
+
 .recomandation p:nth-child(3) {
   font-weight: 600;
   color: rgb(70, 69, 69);
   line-height: 0;
 }
 
-/*********** Icon ************ */
+/*********** Icon Formation/ExpPro  ************ */
+
 h2 i {
   color: #1a9edb;
   font-size: 1.8rem;
   margin-right: 1.7rem;
 }
+
 /*********** Content Formation/ExpPro ************ */
 
 .DoubleCercle {
@@ -240,6 +236,7 @@ h2 i {
   font-size: 0.9rem;
   font-weight: 500;
 }
+
 .Formation1 h3,
 .Formation2 h3,
 .Formation3 h3,
@@ -261,6 +258,7 @@ h2 i {
   font-size: 0.9rem;
   font-weight: 500;
 }
+
 .Formation1 p,
 .Formation2 p,
 .Formation3 p,
@@ -275,16 +273,13 @@ h2 i {
 
 .Hobbies {
   background-color: #1a9edb;
-  max-width: 100%;
-  /* margin: rem 0; */
+  text-align: center;
 }
+
 .Hobbies i {
   border: 1px solid #000;
   border-radius: 50%;
   padding: 1rem;
-  /* margin-top: 4rem; */
-  
-  font-size: 2rem;
 }
 
 .HobbiesTitle h2 {
