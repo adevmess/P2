@@ -1,15 +1,15 @@
 
 
 /* ********** large devices ******** */ 
- @media (min-width: 991px){
-  .Hobbies .col-4 i {
+  @media (min-width: 991px){
+   .Hobbies .col-4 i {
     font-size: 1.8rem;
-}
+  }
  }
  
  /* ********** Medium devices ******** */
 
-@media (max-width: 991px) {
+  @media (max-width: 991px) {
 
   /* ********** Formation ******** */
 
@@ -54,17 +54,13 @@
     font-size: 0.8rem;
   }
 
-  .recomdtTitle {
-    margin-top: 12rem;
-  }
-
   /* ********** Hobbies ******** */
 
   .Hobbies .col-4 i {
     font-size: 1.2rem;
     padding: 0.5rem;
-}
-}
+  }
+  }
 
   /* ************* Small devices ******** */
 
@@ -88,13 +84,13 @@
     width: 80%;
   }
 
-/*********** Experience Pro ************ */
+ /*********** Experience Pro ************ */
 
   .ExpProTitle .col-lg-12 h2::before {
     width: 80%;
   }
 
-/*********** Recomandation ************ */
+ /*********** Recomandation ************ */
 
   .recomdtTitle .col-sm-12 h2::before { 
     width: 80%;
@@ -102,11 +98,20 @@
   }
 
 
-    /* **********Extra Small devices ******** */
+ /* **********Extra Small devices ******** */
 
   @media (max-width: 575px){
 
-    /*********** Formation ************ */ 
+  html, body{
+    font-size: 0.8rem;
+ }
+
+ /*********** header ************ */ 
+  header .col-md-4 .photo{
+    padding-bottom: 18rem;
+ }
+
+ /*********** Formation ************ */ 
 
   .formationTitle .col-md-12 h2{ 
     font-size: 1.1rem;
@@ -114,8 +119,33 @@
 
   .formationTitle .col-md-12 i{
     font-size:1.5rem;
-    margin-right: 1rem;  
+    margin-right: 0.6rem;  
   }
+
+  .Formation1 .col-lg-4 li{
+    padding-left: 0;
+
+  }
+  .Formation2 .col-lg-4 li{
+    padding-left: 0;
+  }
+
+  .Formation3 .col-lg-4 li{
+    padding-left: 0;
+  }
+  .Formation1 .col-lg-8 h3{
+   font-size: 1rem;
+
+  }
+  .Formation2 .col-lg-8 h3{
+   font-size: 1rem;
+  }
+
+  .Formation3 .col-lg-8 h3{
+   font-size: 1rem;
+  }
+
+
 /*********** Experience Pro ************ */
 
   .ExpProTitle .col-lg-12 h2{ 
@@ -124,8 +154,27 @@
 
   .ExpProTitle .col-lg-12 i{
     font-size:1.5rem;
-    margin-right: 1rem;
+    margin-right: 0.6rem;
   } 
+
+  .ExpProTitle .col-lg-12 h2 span{ 
+    display: none;
+  }
+  
+  .ExpPro1 .col-lg-4 li{
+    padding-left: 0;
+  }
+  .ExpPro2 .col-lg-4 li{
+    padding-left: 0;
+  }
+
+  .ExpPro1 .col-lg-8 h3{
+   font-size: 1rem;
+  }
+
+  .ExpPro2 .col-lg-8 h3{
+   font-size: 1rem;
+  }
 
 /*********** Recomandation ************ */
 
@@ -135,6 +184,6 @@
 
   .recomdtTitle .col-sm-12 i{
     font-size:1.5rem;
-    margin-right: 1rem;
+    margin-right: 0.6rem;
   } 
 }
