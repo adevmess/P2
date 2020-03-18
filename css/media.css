@@ -103,7 +103,7 @@
   @media (max-width: 575px){
 
   html, body{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
  }
 
  /*********** header ************ */ 
@@ -114,17 +114,17 @@
  /*********** Formation ************ */ 
 
   .formationTitle .col-md-12 h2{ 
-    font-size: 1.1rem;
+    font-size: 1.5rem;
   }
 
   .formationTitle .col-md-12 i{
     font-size:1.5rem;
-    margin-right: 0.6rem;  
+    margin-right: 1rem;
+    margin-left: -0.2rem; 
   }
 
   .Formation1 .col-lg-4 li{
     padding-left: 0;
-
   }
   .Formation2 .col-lg-4 li{
     padding-left: 0;
@@ -149,12 +149,12 @@
 /*********** Experience Pro ************ */
 
   .ExpProTitle .col-lg-12 h2{ 
-    font-size: 1.1rem;
+    font-size: 1.5rem;
   }
 
   .ExpProTitle .col-lg-12 i{
     font-size:1.5rem;
-    margin-right: 0.6rem;
+    margin-right: 1rem;
   } 
 
   .ExpProTitle .col-lg-12 h2 span{ 
@@ -179,11 +179,11 @@
 /*********** Recomandation ************ */
 
   .recomdtTitle .col-sm-12 h2{ 
-    font-size: 1.1rem;
+    font-size: 1.5rem;
   }
 
   .recomdtTitle .col-sm-12 i{
     font-size:1.5rem;
-    margin-right: 0.6rem;
+    margin-right: 1rem;
   } 
 }
