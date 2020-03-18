@@ -1,7 +1,8 @@
 
 
 /* ********** large devices ******** */ 
-  @media (min-width: 991px){
+
+  @media (min-width: 991px) {
    .Hobbies .col-4 i {
     font-size: 1.8rem;
   }
