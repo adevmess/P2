@@ -3,6 +3,14 @@
 /* ********** large devices ******** */ 
 
   @media (min-width: 991px) {
+
+/* ********** AboutMe ******** */
+
+    .AboutMeContent {
+  margin-bottom: 12rem;
+}
+
+/* ********** Hobbies ******** */
    .Hobbies .col-4 i {
     font-size: 1.8rem;
   }
@@ -17,15 +25,12 @@
   .row .Formation h3 {
     margin-left: 4.2rem;
   }
-
   .row .Formation h4 {
     margin-left: 4.2rem;
   }
-  
   .row .Formation p {
     margin-left: 4.2rem;
   }
-
   .Formation li,
   .ExperiencePro li {
     padding-left: 0.8rem;
@@ -36,15 +41,12 @@
   .row .ExperiencePro h3 {
     margin-left: 4.2rem;
   }
-
   .row .ExperiencePro h4 {
     margin-left: 4.2rem;
   }
-
   .row .ExperiencePro p {
     margin-left: 4.2rem;
   }
-
   .row .ExperiencePro {
     margin-bottom: 6.5rem;
   }
@@ -76,7 +78,7 @@
   /* **********aside******** */
 
   .AboutMeContent {
-    margin-top: 5rem;
+    margin-bottom: 0.5rem;
   }
 
   /* **********Formation******** */
@@ -109,7 +111,7 @@
 
  /*********** header ************ */ 
   header .col-md-4 .photo{
-    padding-bottom: 18rem;
+    padding-bottom: 15rem;
  }
 
  /*********** Formation ************ */ 
@@ -117,13 +119,11 @@
   .formationTitle .col-md-12 h2{ 
     font-size: 1.5rem;
   }
-
   .formationTitle .col-md-12 i{
     font-size:1.5rem;
     margin-right: 1rem;
     margin-left: -0.2rem; 
   }
-
   .Formation1 .col-lg-4 li{
     padding-left: 0;
   }
@@ -136,12 +136,10 @@
   }
   .Formation1 .col-lg-8 h3{
    font-size: 1rem;
-
   }
   .Formation2 .col-lg-8 h3{
    font-size: 1rem;
   }
-
   .Formation3 .col-lg-8 h3{
    font-size: 1rem;
   }
@@ -152,27 +150,22 @@
   .ExpProTitle .col-lg-12 h2{ 
     font-size: 1.5rem;
   }
-
   .ExpProTitle .col-lg-12 i{
     font-size:1.5rem;
     margin-right: 1rem;
   } 
-
   .ExpProTitle .col-lg-12 h2 span{ 
     display: none;
   }
-  
   .ExpPro1 .col-lg-4 li{
     padding-left: 0;
   }
   .ExpPro2 .col-lg-4 li{
     padding-left: 0;
   }
-
   .ExpPro1 .col-lg-8 h3{
    font-size: 1rem;
   }
-
   .ExpPro2 .col-lg-8 h3{
    font-size: 1rem;
   }
@@ -182,7 +175,6 @@
   .recomdtTitle .col-sm-12 h2{ 
     font-size: 1.5rem;
   }
-
   .recomdtTitle .col-sm-12 i{
     font-size:1.5rem;
     margin-right: 1rem;
